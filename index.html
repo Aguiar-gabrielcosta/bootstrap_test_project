@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estações do Ano</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <nav class="navbar bg-primary navbar-expand-lg" data-bs-theme="dark">
+            <div class="container mt-1 mb-1">
+                <a class="navbar-brand fs-3 fw-bold" href="#">Estações do Ano</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarContent" class="collapse navbar-collapse justify-content-end">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#sobre" class="fw-bold nav-link text-center active">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#estacoes" class="fw-bold nav-link text-center">As estações</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="https://cdn.pixabay.com/photo/2018/03/16/20/13/seagull-3232350_1280.jpg" alt="Praia no verão com um pássaro voando">
+                <div class="carousel-caption">
+                    <p class="display-5">Verão</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_1280.jpg" alt="Floresta no outono">
+                <div class="carousel-caption">
+                    <p class="display-5">Outuono</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="https://cdn.pixabay.com/photo/2017/12/03/22/11/winter-landscape-2995987_1280.jpg" alt="Floresta no inverno com neve">
+                <div class="carousel-caption">
+                    <p class="display-5">Inverno</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="https://cdn.pixabay.com/photo/2014/12/04/14/46/magnolia-trees-556718_1280.jpg" alt="Árvores de magnólia na primavera">
+                <div class="carousel-caption">
+                    <p class="display-5">Primavera</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+        </div>
+    </div>
+
+    <div class="container" data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="sobre">
+            <h2 class="pb-3 text-primary fst-italic border-bottom border-primary">Sobre as estações</h2>
+            <article class="pb-3">
+                <p>As estações do ano são divididas, no ocidente, em 4: <a href="#estacoes">Verão</a>, <a href="#estacoes">Outono</a>, <a href="#estacoes">Inverno</a> e <a href="#estacoes">Primavera</a>. Estas estão ligadas à variação da insolação terrestre ao longo do ano devido a inclinação do eixo da terra e seu movimento de translação (movimento da Terra em torno do Sol).</p>
+                <p>A variação climática entre as estações, influência as atividades mais comuns nos dois hemisférios (Norte e Sul). Entenda cada uma delas e veja os meses em que estas serão no ano de 2024.</p>
+            </article>
+        </section>
+
+        <section id="estacoes">
+            <h2 class="pb-3 text-primary fst-italic border-bottom border-primary">Estações do ano</h2>
+            <div class="container-lg">
+                <div class="row">
+                    <div id="verao" class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mt-3 mb-3">
+                        <article class="card text-bg-dark">
+                            <img src="https://cdn.pixabay.com/photo/2017/01/10/20/58/background-1970214_1280.jpg" alt="Casa na beira da praia">
+                            <div class="card-img-overlay">
+                                <h2 class="card-title">Verão</h2>
+                                <h3 class="h4 card-subtitle fw-normal fst-italic border-bottom pb-2">Estação do calor</h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus pariatur quo fuga ullam ex laborum ipsum ipsam aut animi aspernatur mollitia dicta odio expedita numquam voluptates, totam est sed eveniet!
+                                </p>
+                                <a href="https://pt.wikipedia.org/wiki/Ver%C3%A3o" target="_blank" class="btn btn-primary">Saiba mais</a>
+                            </div>
+                            <footer class="card-footer">
+                                <p>Início: 21 de dezembro de 2024</p>
+                            </footer>
+                        </article>
+                    </div>
+                    <div id="outono" class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mt-3 mb-3">
+                        <article class="card text-bg-dark">
+                            <img src="https://cdn.pixabay.com/photo/2013/05/15/06/10/autumn-111315_1280.jpg" alt="Folhas amarelas caídas">
+                            <div class="card-img-overlay">
+                                <h2 class="card-title">Outono</h2>
+                                <h3 class="h4 card-subtitle fw-normal fst-italic border-bottom pb-2">Estação do frio ameno</h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum ut ipsa doloremque, voluptas dolor alias. Perspiciatis velit debitis placeat fuga blanditiis asperiores dolore obcaecati tenetur, necessitatibus voluptatem, possimus adipisci ullam?
+                                </p>
+                                <a href="https://pt.wikipedia.org/wiki/Outono" target="_blank" class="btn btn-primary">Saiba mais</a>
+                            </div>
+                            <footer class="card-footer">
+                                <p>Início: 20 de março de 2024</p>
+                            </footer>
+                        </article>
+                    </div>
+                    <div id="inverno" class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mt-3 mb-3">
+                        <article class="card text-bg-dark">
+                            <img src="https://cdn.pixabay.com/photo/2021/01/23/13/01/hills-5942468_1280.jpg" alt="Colinas cobertas de neve">
+                            <div class="card-img-overlay">
+                                <h2 class="card-title">Inverno</h2>
+                                <h3 class="h4 card-subtitle fw-normal fst-italic border-bottom pb-2">Estação do frio</h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet ullam dolore unde excepturi assumenda distinctio nam. Magni, laudantium corrupti nihil quaerat mollitia facilis similique fugiat laboriosam tempora deleniti inventore impedit!
+                                </p>
+                                <a href="https://pt.wikipedia.org/wiki/Inverno" target="_blank" class="btn btn-primary">Saiba mais</a>
+                            </div>
+                            <footer class="card-footer">
+                                <p>Início: 20 de junho de 2024</p>
+                            </footer>
+                        </article>
+                    </div>
+                    <div id="primavera" class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mt-3 mb-3">
+                        <article class="card text-bg-dark">
+                            <img src="https://cdn.pixabay.com/photo/2021/04/05/13/10/cherry-blossoms-6153384_1280.jpg" alt="Flores de cerejeira">
+                            <div class="card-img-overlay">
+                                <h2 class="card-title">Primavera</h2>
+                                <h3 class="h4 card-subtitle fw-normal fst-italic border-bottom pb-2">Estação do calor ameno</h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum rem ut tempore omnis mollitia, itaque velit repellat laudantium dolores fugiat, labore nobis eum quas ad officia laboriosam unde rerum deleniti.
+                                </p>
+                                <a href="https://pt.wikipedia.org/wiki/Primavera" target="_blank" class="btn btn-primary">Saiba mais</a>
+                            </div>
+                            <footer class="card-footer">
+                                <p>Início: 22 de setembro de 2024</p>
+                            </footer>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
